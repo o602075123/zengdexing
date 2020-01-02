@@ -23,9 +23,13 @@ body {
 .avatar_container > img{
     width: 200px;
     height: 200px;
-    box-shadow: 0px 0px 4px #99999999;
+    border: 2px solid #DDDDDD;
+    box-shadow: 0px 0px 4px #CCCCCC;
     border-radius: 100px;
-    border: 2px solid #DDDDDDDD;
+}
+
+.avatar_container > img:hover{
+    border: 2px solid rgb(36, 180, 126);
 }
 
 .avatar_container > .name{
